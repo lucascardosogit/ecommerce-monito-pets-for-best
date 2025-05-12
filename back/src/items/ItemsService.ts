@@ -10,8 +10,8 @@ import {
 import { Items } from './ItemsEntity';
 import { CreateItemDTO } from './dto/CreateItemDTO';
 import { Injectable } from '@nestjs/common';
-import { sortBy } from 'src/common/enum/SortBy';
-import { PetsSpecie } from 'src/common/enum/SpecieType';
+import { sortBy } from '../common/enum/SortBy';
+import { PetsSpecie } from '../common/enum/SpecieType';
 
 @Injectable()
 export class ItemsService {

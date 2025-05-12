@@ -4,6 +4,9 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Items } from './items/ItemsEntity';
 import { Pets } from './pets/PetsEntity';
 import { PetsModule } from './pets/PetsModule';
+import { ItemsModule } from './items/ItemsModule';
+import { Contacts } from './contact/ContactsEntity';
+import { SeedModule } from './seed/SeedModule';
 
 @Module({
   imports: [
@@ -18,11 +21,13 @@ import { PetsModule } from './pets/PetsModule';
       username: process.env.DB_USERNAME,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
-      entities: [Pets, Items],
+      entities: [Pets, Items, Contacts],
       synchronize: true,
     }),
-    TypeOrmModule.forFeature([Pets, Items]),
+    TypeOrmModule.forFeature([Pets, Items, Contacts]),
     PetsModule,
+    ItemsModule,
+    SeedModule,
   ],
   controllers: [],
   providers: [],

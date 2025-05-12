@@ -11,10 +11,10 @@ import {
 import { Pets } from './PetsEntity';
 import { CreatePetDTO } from './dto/CreatePetDTO';
 import { Injectable } from '@nestjs/common';
-import { PetsGender } from 'src/common/enum/GenderType';
-import { PetsSize } from 'src/common/enum/SizeType';
-import { PetsColor } from 'src/common/enum/ColorType';
-import { sortBy } from 'src/common/enum/SortBy';
+import { PetsGender } from '../common/enum/GenderType';
+import { PetsSize } from '../common/enum/SizeType';
+import { PetsColor } from '../common/enum/ColorType';
+import { sortBy } from '../common/enum/SortBy';
 
 @Injectable()
 export class PetsService {

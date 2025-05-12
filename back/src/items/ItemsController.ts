@@ -1,8 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unsafe-argument */
 import { Body, Controller, Get, Param, Post, Query } from '@nestjs/common';
 import { CreateItemDTO } from './dto/CreateItemDTO';
 import { Items } from './ItemsEntity';
 import { ItemsService } from './ItemsService';
+import { sortBy } from '../common/enum/SortBy';
+import { PetsSpecie } from '../common/enum/SpecieType';
 
 @Controller('items')
 export class ItemsController {
@@ -16,10 +17,20 @@ export class ItemsController {
   @Get()
   async findAll(
     @Query('limit') limit: number = 8,
-    @Query('page') page: number = 0,
-    @Query() filters: any,
+    @Query('page') page: number = 1,
+    @Query('orderBy') orderBy?: sortBy,
+    @Query('minPrice') minPrice?: string,
+    @Query('maxPrice') maxPrice?: string,
+    @Query('forSpecie') forSpecie?: PetsSpecie,
   ): Promise<Items[] | null> {
-    return this.itemsService.findAll(limit, page, ...filters);
+    return this.itemsService.findAll(
+      limit,
+      page,
+      orderBy,
+      minPrice,
+      maxPrice,
+      forSpecie,
+    );
   }
 
   @Get(':id')

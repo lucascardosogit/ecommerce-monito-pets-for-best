@@ -1,9 +1,9 @@
 // eslint-disable-next-line prettier/prettier
-import { IsArray, IsBoolean, IsDate, IsEnum, IsNumber, IsOptional, IsString } from 'class-validator';
-import { PetsColor } from 'src/common/enum/ColorType';
-import { PetsGender } from 'src/common/enum/GenderType';
-import { PetsSize } from 'src/common/enum/SizeType';
-import { PetsSpecie } from 'src/common/enum/SpecieType';
+import { IsArray, IsBoolean, IsDate, IsEnum, IsNumber, IsString } from 'class-validator';
+import { PetsColor } from '../../common/enum/ColorType';
+import { PetsGender } from '../../common/enum/GenderType';
+import { PetsSize } from '../../common/enum/SizeType';
+import { PetsSpecie } from '../../common/enum/SpecieType';
 
 export class CreatePetDTO {
   @IsString()
@@ -15,7 +15,7 @@ export class CreatePetDTO {
   @IsString()
   sku: string;
 
-  @IsEnum({ type: 'enum', enum: PetsSpecie })
+  @IsEnum(PetsSpecie)
   specie: PetsSpecie;
 
   @IsEnum(PetsGender)
@@ -27,7 +27,7 @@ export class CreatePetDTO {
   @IsEnum(PetsSize)
   size: PetsSize;
 
-  @IsEnum({ type: 'enum', enum: PetsColor })
+  @IsEnum(PetsColor)
   color: PetsColor;
 
   @IsBoolean()
@@ -48,9 +48,8 @@ export class CreatePetDTO {
   @IsDate()
   publishedDate: Date;
 
-  @IsOptional()
   @IsString()
-  additionalInformation?: string;
+  additionalInformation: string;
 
   @IsArray()
   @IsString({ each: true })

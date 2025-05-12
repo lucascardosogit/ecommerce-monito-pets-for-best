@@ -1,8 +1,8 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
-import { PetsGender } from 'src/common/enum/GenderType';
-import { PetsSize } from 'src/common/enum/SizeType';
-import { PetsSpecie } from 'src/common/enum/SpecieType';
-import { PetsColor } from 'src/common/enum/ColorType';
+import { PetsGender } from '../common/enum/GenderType';
+import { PetsSize } from '../common/enum/SizeType';
+import { PetsSpecie } from '../common/enum/SpecieType';
+import { PetsColor } from '../common/enum/ColorType';
 
 @Entity()
 export class Pets {
