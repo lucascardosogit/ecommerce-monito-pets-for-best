@@ -1,4 +1,5 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
+import { Body, Controller, Get, Param, Post, Query } from '@nestjs/common';
 import { PetsService } from './PetsService';
 import { CreatePetDTO } from './dto/CreatePetDTO';
 import { Pets } from './PetsEntity';
@@ -13,8 +14,12 @@ export class PetsController {
   }
 
   @Get()
-  async findAll(): Promise<Pets[]> {
-    return this.petsService.findAll();
+  async findAll(
+    @Query('limit') limit: number = 8,
+    @Query('page') page: number = 0,
+    @Query() filters: any,
+  ): Promise<Pets[]> {
+    return this.petsService.findAll(limit, page, ...filters);
   }
 
   @Get(':id')

@@ -1,19 +1,19 @@
 // eslint-disable-next-line prettier/prettier
-import { IsArray, IsEnum, IsNumber, IsOptional, IsString } from 'class-validator';
-import { PetSpecie } from 'src/common/enum/SpecieType';
+import { IsArray, IsEnum, IsOptional, IsString } from 'class-validator';
+import { PetsSpecie } from 'src/common/enum/SpecieType';
 
 export class CreateItemDTO {
   @IsString()
   name: string;
 
-  @IsNumber()
-  price: number;
+  @IsString()
+  price: string;
 
   @IsString()
   sku: string;
 
-  @IsEnum({ type: 'enum', enum: PetSpecie })
-  forSpecie: PetSpecie;
+  @IsEnum({ type: 'enum', enum: PetsSpecie })
+  forSpecie: PetsSpecie;
 
   @IsString()
   product: string;

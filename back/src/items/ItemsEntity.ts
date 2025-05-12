@@ -1,4 +1,4 @@
-import { PetSpecie } from 'src/common/enum/SpecieType';
+import { PetsSpecie } from 'src/common/enum/SpecieType';
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
@@ -10,13 +10,13 @@ export class Items {
   name: string;
 
   @Column()
-  price: number;
+  price: string;
 
   @Column()
   sku: string;
 
-  @Column({ type: 'enum', enum: PetSpecie })
-  forSpecie: PetSpecie;
+  @Column({ type: 'enum', enum: PetsSpecie })
+  forSpecie: PetsSpecie;
 
   @Column()
   product: string;

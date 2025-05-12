@@ -1,7 +1,8 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 import { PetsGender } from 'src/common/enum/GenderType';
 import { PetsSize } from 'src/common/enum/SizeType';
-import { PetSpecie } from 'src/common/enum/SpecieType';
+import { PetsSpecie } from 'src/common/enum/SpecieType';
+import { PetsColor } from 'src/common/enum/ColorType';
 
 @Entity()
 export class Pets {
@@ -12,13 +13,13 @@ export class Pets {
   name: string;
 
   @Column()
-  price: number;
+  price: string;
 
   @Column()
   sku: string;
 
-  @Column({ type: 'enum', enum: PetSpecie })
-  specie: PetSpecie;
+  @Column({ type: 'enum', enum: PetsSpecie })
+  specie: PetsSpecie;
 
   @Column({ type: 'enum', enum: PetsGender })
   gender: PetsGender;
@@ -29,8 +30,8 @@ export class Pets {
   @Column({ type: 'enum', enum: PetsSize })
   size: PetsSize;
 
-  @Column()
-  color: string;
+  @Column({ type: 'enum', enum: PetsColor })
+  color: PetsColor;
 
   @Column()
   vaccinated: boolean;

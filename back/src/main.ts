@@ -9,4 +9,6 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
   await app.listen(configService.get<number>('PORT') ?? 3000);
 }
-bootstrap();
+bootstrap().catch((error) => {
+  console.error('An error has occurred: ', error);
+});

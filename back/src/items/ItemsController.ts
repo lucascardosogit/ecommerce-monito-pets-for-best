@@ -1,4 +1,5 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
+import { Body, Controller, Get, Param, Post, Query } from '@nestjs/common';
 import { CreateItemDTO } from './dto/CreateItemDTO';
 import { Items } from './ItemsEntity';
 import { ItemsService } from './ItemsService';
@@ -13,8 +14,12 @@ export class ItemsController {
   }
 
   @Get()
-  async findAll(): Promise<Items[] | null> {
-    return this.itemsService.findAll();
+  async findAll(
+    @Query('limit') limit: number = 8,
+    @Query('page') page: number = 0,
+    @Query() filters: any,
+  ): Promise<Items[] | null> {
+    return this.itemsService.findAll(limit, page, ...filters);
   }
 
   @Get(':id')

@@ -1,21 +1,22 @@
 // eslint-disable-next-line prettier/prettier
 import { IsArray, IsBoolean, IsDate, IsEnum, IsNumber, IsOptional, IsString } from 'class-validator';
+import { PetsColor } from 'src/common/enum/ColorType';
 import { PetsGender } from 'src/common/enum/GenderType';
 import { PetsSize } from 'src/common/enum/SizeType';
-import { PetSpecie } from 'src/common/enum/SpecieType';
+import { PetsSpecie } from 'src/common/enum/SpecieType';
 
 export class CreatePetDTO {
   @IsString()
   name: string;
 
-  @IsNumber()
-  price: number;
+  @IsString()
+  price: string;
 
   @IsString()
   sku: string;
 
-  @IsEnum({ type: 'enum', enum: PetSpecie })
-  specie: PetSpecie;
+  @IsEnum({ type: 'enum', enum: PetsSpecie })
+  specie: PetsSpecie;
 
   @IsEnum(PetsGender)
   gender: PetsGender;
@@ -26,8 +27,8 @@ export class CreatePetDTO {
   @IsEnum(PetsSize)
   size: PetsSize;
 
-  @IsString()
-  color: string;
+  @IsEnum({ type: 'enum', enum: PetsColor })
+  color: PetsColor;
 
   @IsBoolean()
   vaccinated: boolean;
