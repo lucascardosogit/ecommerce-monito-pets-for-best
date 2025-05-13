@@ -16,25 +16,9 @@ createRoot(root!).render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/category" element={<Category />} />
-        <Route path="/" element={<App />} />
+        <Route path="/product/:id" element={<App />} />
       </Routes>
       <FooterNewsletter />
     </BrowserRouter>
   </StrictMode>
 )
-
-
-// import React from "react";
-// import ReactDOM from "react-dom/client";
-// import { BrowserRouter, Routes, Route } from "react-router";
-// import App from "./app";
-
-// const root = document.getElementById("root");
-
-// ReactDOM.createRoot(root).render(
-  // <BrowserRouter>
-  //   <Routes>
-  //     <Route path="/" element={<App />} />
-  //   </Routes>
-  // </BrowserRouter>
-// );

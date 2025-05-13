@@ -7,6 +7,7 @@ import { PetsModule } from './pets/PetsModule';
 import { ItemsModule } from './items/ItemsModule';
 import { Contacts } from './contact/ContactsEntity';
 import { SeedModule } from './seed/SeedModule';
+import { ContactsModule } from './contact/ContactsModule';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { SeedModule } from './seed/SeedModule';
     TypeOrmModule.forFeature([Pets, Items, Contacts]),
     PetsModule,
     ItemsModule,
+    ContactsModule,
     SeedModule,
   ],
   controllers: [],
