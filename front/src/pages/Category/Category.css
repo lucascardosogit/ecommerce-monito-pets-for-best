@@ -1,0 +1,22 @@
+.products-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    h2, p {
+        align-self: flex-start;
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 18px;
+    }
+}
+
+#adoptionbanner3 {
+    h2, h3, p {
+        color: var(--neutral-color-00);
+    }
+}

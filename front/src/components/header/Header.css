@@ -1,0 +1,40 @@
+* {
+    color: var(--dark-blue);
+}
+
+header {
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 130px;
+    gap: 2.25rem;
+
+    div {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+    }
+
+    input {
+        background-color: var(--neutral-color-00);
+        border: none;
+        border-radius: 46px;
+        padding: 14px 20px;
+    }
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+
+    li {
+        padding-top: 14px;
+        font-weight: bold;
+    }
+}

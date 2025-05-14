@@ -1,0 +1,19 @@
+.product-main-image {
+    img {
+        width: 560px;
+        height: 476px;
+        border-radius: 10px;
+    }
+}
+
+.product-secondary-images {
+    img {
+        width: 94px;
+        height: 94px;
+        border-radius: 6px;
+    }
+}
+
+.product-details-container {
+    display: flex;
+}

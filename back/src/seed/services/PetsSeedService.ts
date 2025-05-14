@@ -41,8 +41,8 @@ export class PetsSeedService {
         additionalInformation:
           'Friendly and playful Golden Retriever puppy from champion bloodlines. Great with children and other pets.',
         images: [
-          'https://images.unsplash.com/photo-1633722715463-d30f4f325e24',
-          'https://images.unsplash.com/photo-1552053831-71594a27632d',
+          'https://www.patasdacasa.com.br/sites/default/files/styles/article_detail_1200/public/2023-11/cachorro%20golden%20filhote.jpg.webp?itok=GMk6C7Rh',
+          'https://images.photowall.com/products/57215/golden-retriever-puppy.jpg?h=699&q=85',
         ],
       },
       {
@@ -63,8 +63,8 @@ export class PetsSeedService {
         additionalInformation:
           'Majestic Siberian Husky with stunning black and white coat. Energetic, requires regular exercise and experienced owner.',
         images: [
-          'https://images.unsplash.com/photo-1605568427561-40dd23c2acea',
-          'https://images.unsplash.com/photo-1590419690008-905895e8fe0d',
+          'https://www.petz.com.br/cachorro/racas/husky-siberiano/img/husky-siberiano-caracteristicas-guia-racas.webp',
+          'https://a-us.storyblok.com/f/1016262/4256x2832/9dcacc41fe/siberian-husky.jpeg',
         ],
       },
       {
@@ -85,8 +85,8 @@ export class PetsSeedService {
         additionalInformation:
           'Charming Frenchie with excellent pedigree. Playful, adaptable, and great for families living in apartments.',
         images: [
-          'https://images.unsplash.com/photo-1583511655826-05700442b31b',
-          'https://images.unsplash.com/photo-1583337130417-3346a1be7dee',
+          'https://upload.wikimedia.org/wikipedia/commons/1/18/2008-07-28_Dog_at_Frolick_Field.jpg',
+          'https://image.petmd.com/files/styles/978x550/public/2022-10/french-bulldog.jpeg',
         ],
       },
       {
@@ -107,8 +107,8 @@ export class PetsSeedService {
         additionalInformation:
           'Friendly Labrador with excellent temperament. Great family dog, already trained with basic commands.',
         images: [
-          'https://images.unsplash.com/photo-1591946614720-90a587da4a36',
-          'https://images.unsplash.com/photo-1600804340584-c7db2eacf0bf',
+          'https://portalvet.royalcanin.com.br/media/wp-content/uploads/2023/08/labrador-retriever-02-800x532.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/640px-YellowLabradorLooking_new.jpg',
         ],
       },
       {
@@ -129,8 +129,8 @@ export class PetsSeedService {
         additionalInformation:
           'Noble German Shepherd with excellent protection instincts. Intelligent and easily trainable.',
         images: [
-          'https://images.unsplash.com/photo-1589941013453-ec89f98c6e8e',
-          'https://images.unsplash.com/photo-1607077985404-acaa283f4b85',
+          'https://upload.wikimedia.org/wikipedia/commons/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg',
+          'https://worldanimalfoundation.org/wp-content/uploads/2024/02/german-shepherd-2-3.jpg',
         ],
       },
       {
@@ -151,8 +151,8 @@ export class PetsSeedService {
         additionalInformation:
           'Beautiful Shiba Inu with classic fox-like appearance. Independent personality with strong hunting instincts.',
         images: [
-          'https://images.unsplash.com/photo-1593991341138-9a9db56a8bf6',
-          'https://images.unsplash.com/photo-1574293876203-8bded53be0f0',
+          'https://www.azpetshop.com.br/img/news/91/000.webp',
+          'https://www.petz.com.br/cachorro/racas/shiba-inu/img/shiba-inu-caracteristicas-guia-racas.webp',
         ],
       },
       {
@@ -173,8 +173,8 @@ export class PetsSeedService {
         additionalInformation:
           'Cheerful Pembroke Welsh Corgi with characteristic short legs and expressive face. Energetic and intelligent.',
         images: [
-          'https://images.unsplash.com/photo-1612536057832-2ff7ead58194',
-          'https://images.unsplash.com/photo-1554692918-08fa0fdc9db3',
+          'https://www.cobasi.com.br/arquivos/corgi-meio.png?v=637611065596900000',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Welchcorgipembroke.JPG/960px-Welchcorgipembroke.JPG',
         ],
       },
       {
@@ -195,8 +195,8 @@ export class PetsSeedService {
         additionalInformation:
           'Fluffy apricot Pomeranian with adorable teddy bear face. Lively, bold personality in a tiny package.',
         images: [
-          'https://images.unsplash.com/photo-1582456891925-a53965520520',
-          'https://images.unsplash.com/photo-1559155395-1573295a67ef',
+          'https://cdn.britannica.com/41/233841-050-4FFECCF1/Pomeranian-dog.jpg',
+          'https://static.vecteezy.com/ti/fotos-gratis/p2/6177803-lindo-pequeno-branco-pomeranian-spitz-gratis-foto.jpg',
         ],
       },
       {
@@ -217,8 +217,8 @@ export class PetsSeedService {
         additionalInformation:
           'Classic black and white Beagle with friendly demeanor. Great with children, loves to follow his nose.',
         images: [
-          'https://images.unsplash.com/photo-1505628346881-b72b27e84530',
-          'https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993',
+          'https://www.petz.com.br/cachorro/racas/beagle/img/beagle-caracteristicas-fisicas.webp',
+          'https://www.racoesreis.com.br/wordpress/wp-content/uploads/imagem_do_post-18.jpg',
         ],
       },
       {
@@ -239,8 +239,8 @@ export class PetsSeedService {
         additionalInformation:
           'Charming miniature Dachshund with smooth red coat. Brave, tenacious, and surprisingly good watchdog.',
         images: [
-          'https://images.unsplash.com/photo-1612195583950-b8fd34c87093',
-          'https://images.unsplash.com/photo-1647666573402-cba2c0df45a1',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/%EB%8B%A5%EC%8A%A4%ED%9B%88%ED%8A%B8%28%EB%8B%A8%EB%AA%A8%EC%A2%85%29_%28Dachshund_%28Short%29%29.jpg/960px-%EB%8B%A5%EC%8A%A4%ED%9B%88%ED%8A%B8%28%EB%8B%A8%EB%AA%A8%EC%A2%85%29_%28Dachshund_%28Short%29%29.jpg',
+          'https://www.equilibrio-petfood.com/wp-content/uploads/2024/03/cute-purebred-dogs-studio.jpg',
         ],
       },
       {
@@ -261,8 +261,8 @@ export class PetsSeedService {
         additionalInformation:
           'Energetic and playful Boxer with strong muscles and friendly disposition. Great family companion and guardian.',
         images: [
-          'https://images.unsplash.com/photo-1543071220-6ee5bf71a54e',
-          'https://images.unsplash.com/photo-1622237913434-3e461b651e5f',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/1._Brindle_boxer_dog%2C_female.jpg/1200px-1._Brindle_boxer_dog%2C_female.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Male_fawn_Boxer_undocked.jpg/1200px-Male_fawn_Boxer_undocked.jpg',
         ],
       },
       {
@@ -283,8 +283,8 @@ export class PetsSeedService {
         additionalInformation:
           'Extremely intelligent Border Collie with classic black and white markings. Needs mental stimulation and activity.',
         images: [
-          'https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47',
-          'https://images.unsplash.com/photo-1551430872-6b11a04a2be5',
+          'https://www.racoesreis.com.br/wordpress/wp-content/uploads/cachorro-origem5.jpg',
+          'https://www.petz.com.br/blog/wp-content/uploads/2022/01/cruzamento-de-border-collie-com-vira-lata-topo-1280x720.jpg',
         ],
       },
       {
@@ -305,8 +305,8 @@ export class PetsSeedService {
         additionalInformation:
           'Powerful and protective Rottweiler. Loyal and devoted to family with proper socialization and training.',
         images: [
-          'https://images.unsplash.com/photo-1567752881298-894bb81f9379',
-          'https://images.unsplash.com/photo-1599944815776-55bc33ac9bf8',
+          'https://www.petz.com.br/cachorro/racas/rottweiler/img/rottweiler-caracteristicas-guia-racas.jpg',
+          'https://uploads.metroimg.com/wp-content/uploads/2023/11/13151809/cachorro-preto-da-raca-rottweiler.jpg',
         ],
       },
       {
@@ -327,8 +327,8 @@ export class PetsSeedService {
         additionalInformation:
           'Noble and dignified Akita with beautiful red coat. Loyal and protective companion requiring experienced owner.',
         images: [
-          'https://images.unsplash.com/photo-1561298169-224f08e029a1',
-          'https://images.unsplash.com/photo-1525347201235-44dcd6765132',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Akita_inu.jpeg/960px-Akita_inu.jpeg',
+          'https://www.petz.com.br/blog/wp-content/uploads/2017/11/akita-inu-02-1280x720.jpg',
         ],
       },
       {
@@ -349,8 +349,8 @@ export class PetsSeedService {
         additionalInformation:
           'Cheerful and playful Bichon Frise with fluffy white coat. Great for families and apartment living.',
         images: [
-          'https://images.unsplash.com/photo-1569809317138-8d2ff6060c4e',
-          'https://images.unsplash.com/photo-1587477858044-31c3ece9596a',
+          'https://www.petz.com.br/cachorro/racas/bichon-frise/img/bichon-frise-filhote.webp',
+          'https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/01/02/2141544809-bichon-frise.jpg',
         ],
       },
       {
@@ -371,8 +371,8 @@ export class PetsSeedService {
         additionalInformation:
           'Athletic and alert Doberman with sleek black coat. Loyal, intelligent, and makes an excellent guardian.',
         images: [
-          'https://images.unsplash.com/photo-1609240873713-eec400f73cc0',
-          'https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1',
+          'https://www.petz.com.br/cachorro/racas/doberman/img/doberman-caracteristicas-fisicas.webp',
+          'https://cachorrosderaca.com.br/wp-content/uploads/2017/01/doberman-893931_960_720.jpg',
         ],
       },
       {
@@ -393,8 +393,8 @@ export class PetsSeedService {
         additionalInformation:
           'Distinctive spotted Dalmatian with high energy and endurance. Needs plenty of exercise and consistent training.',
         images: [
-          'https://images.unsplash.com/photo-1583512603866-910c8542ba9d',
-          'https://images.unsplash.com/photo-1591769225440-811ad7d6eab3',
+          'https://cdn.britannica.com/47/236047-050-F06BFC5E/Dalmatian-dog.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Prunella_Fitzgerald_de_Puech_Barrayre.jpg/640px-Prunella_Fitzgerald_de_Puech_Barrayre.jpg',
         ],
       },
       {
@@ -415,8 +415,8 @@ export class PetsSeedService {
         additionalInformation:
           'Sweet and gentle Cocker Spaniel with beautiful apricot coat. Affectionate family companion who loves to play.',
         images: [
-          'https://images.unsplash.com/photo-1616529735204-6799550783d3',
-          'https://images.unsplash.com/photo-1591946532546-4160f60a5911',
+          'https://cobasi.vteximg.com.br/arquivos/cocker-spaniel-ingles-meio.png?v=637617793621670000',
+          'https://blog.polipet.com.br/wp-content/uploads/2023/01/AdobeStock_110253955-scaled.jpeg',
         ],
       },
       {
@@ -437,8 +437,8 @@ export class PetsSeedService {
         additionalInformation:
           'Lively and bold Jack Russell Terrier. Intelligent, energetic, and requires plenty of exercise and mental stimulation.',
         images: [
-          'https://images.unsplash.com/photo-1518717758536-85ae29035b6d',
-          'https://images.unsplash.com/photo-1520087619250-584c0cbd35e8',
+          'https://tudodebicho.vtexassets.com/arquivos/jack-russell-terrier-no-gramado-atento.jpg',
+          'https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3203924:1647286621/Jack-Russell-Terrier.jpg?f=default&$p$f=1227f5e',
         ],
       },
     ];

@@ -1,0 +1,28 @@
+.sellers-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.75rem;
+
+    p {
+        line-height: 31px;
+    }
+
+    .emphasis {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: var(--dark-blue);
+    }
+}
+
+.sellers-images-container {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        width: 6%;
+        height: auto;
+    }
+}

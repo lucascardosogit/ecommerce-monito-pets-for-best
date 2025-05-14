@@ -1,10 +1,15 @@
+import './FooterNewsletter.css';
+import '../../App.css';
+
 export default function FooterNewsletter() {
     return (
         <section id="footer-newsletter" className="container">
             <div className="subscribe-card">
                 <h2>Register now so you don't miss our programs</h2>
-                <input type="text" placeholder="Enter your Email" />
-                <button>Subscribe Now</button>    
+                <div className='email-input'>
+                    <input type="email" placeholder="Enter your Email" />
+                    <button>Subscribe Now</button>    
+                </div>
             </div>
 
             <div id="footer-icons">
@@ -26,10 +31,16 @@ export default function FooterNewsletter() {
             </div>
 
             <footer>
-                <p>&copy; 2025 Monito. All rights reserved.</p>
-                <img src="/images/resources/monito-logo.svg" alt="Monito's logo" />
-                <p><a href="#">Terms of Service</a></p>
-                <p><a href="#">Privacy Policy</a></p>
+                <div className='footer-paragraph'>
+                    <p>&copy; 2025 Monito. All rights reserved.</p>
+                </div>
+                <div className='footer-logo'>
+                    <img src="/images/resources/monito-logo.svg" alt="Monito's logo" />
+                </div>
+                <div className='footer-terms'>
+                    <p><a href="#">Terms of Service</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                </div>
             </footer>
         </section>
     )

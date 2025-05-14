@@ -1,9 +1,18 @@
+import './PetKnowledge.css';
+import '../../App.css';
+
 export default function PetKnowledge() {
     return (
         <section id="pet-knowledge" className="container">
-            <p>You already know ?</p>
-            <p><span className="emphasis">Useful pet knowledge</span></p>
-            <button className="secondary-btn">View more <img src="/images/resources/right-arrow.svg" alt="Right-arrow" /></button>
+            <div className='knowledge-header'>
+                <div className='header-text'>
+                    <p>You already know ?</p>
+                    <p><span className="emphasis">Useful pet knowledge</span></p>
+                </div>
+                <div className='header-btn'>
+                    <button className="secondary-btn">View more <img src="/images/resources/right-arrow.svg" alt="Right-arrow" /></button>
+                </div>
+            </div>
             <div id="infos">
                 <div className="card">
                     <img src="/images/pet-knowledge/pomerian-dog.png" alt="Pomerian dog running" />

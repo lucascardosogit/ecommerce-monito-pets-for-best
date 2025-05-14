@@ -1,0 +1,27 @@
+#hero {
+    display: flex;
+    flex-direction: column;
+    padding-block: 130px;
+
+    h1 {
+        font-size: 3.75rem;
+        color: var(--dark-blue-80);
+        margin-bottom: 4px;
+    }
+
+    h2 {
+        font-size: 2.875rem;
+        color: var(--dark-blue-80);
+        margin-bottom: 24px;
+    }
+
+    p {
+        color: var(--neutral-color-80);
+        margin-bottom: 34px;
+    }
+
+    .hero-btn {
+        display: flex;
+        gap: 40px;
+    }
+}

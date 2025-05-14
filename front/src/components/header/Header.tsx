@@ -1,6 +1,8 @@
 import logo from '/images/resources/monito-logo.svg'
 import vndLogo from '/images/resources/vnd-logo.svg'
 import downArrow from '/images/resources/down-arrow.svg'
+import '../../App.css';
+import './Header.css';
 
 export default function Header() {
     return (
@@ -11,7 +13,7 @@ export default function Header() {
                     <li>Home</li>
                     <li>Category</li>
                     <li>About</li>
-                    <li>Contact</li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
 
                 <div>
